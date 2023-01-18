@@ -1,0 +1,20 @@
+.row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background-image: url("../img/header.jpeg");
+    color: yellow;
+    margin-top: 50px;
+    font-size: large;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing:0 20px;
+}

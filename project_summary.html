@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Summary</title>
+</head>
+<body>
+    <h1>Project Summary</h1>
+    <h2>Website Introduction</h2>
+    <p>
+        This website helps film lovers build a watchlist platform so that we can create movie watchlists and add desired movies into the watchlist. We can also contribute to others' lists by adding or deleting movies or changing watchlists' titles or introductions.
+    </p>
+    <h2>Project Database</h2>
+    <p>There are at total 5 tables used for this project with 5 one-to-one relationships</p>
+    <ul>
+        <li>Creators: Table for creator names and creator id</li>
+        <li>Posters: Table for all posters with poster id and url</li>
+        <li>Types: Table for types with type id and type</li>
+        <li>Movies: Table for movies with movie id, imdb id, title, poster, release year etc.</li>
+        <li>Watchlists: Table for all watchlists with watchlist id, watchlist name, last edit time, cover of watchlist(which is the poster of the most recent added movie), etc.</li>
+    </ul>
+    <img src="img/table_relations.png" alt="Table relationships" height="300" width="auto">
+    <h2>Project Extras</h2>
+    <ul>
+        <li>Event Driven DOM Manipulation</li>
+        <li>Json API - use OMDB API for searching movies: <a href="https://www.omdbapi.com/">Link To OMDB </a></li>
+    </ul>
+</body>
+</html>

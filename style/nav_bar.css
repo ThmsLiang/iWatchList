@@ -1,0 +1,27 @@
+.nav_bar ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 100;
+    overflow: hidden;
+    background-color: #065753;
+}
+
+.nav_bar li {
+    float: left;
+}
+
+.nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.nav_bar li a:hover {
+    background-color: #111;
+  }
+
+.nav_bar .active {
+    background-color: #032c40;
+}
